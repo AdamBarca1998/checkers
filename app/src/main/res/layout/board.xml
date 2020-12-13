@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton07"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton17"
+        app:layout_constraintStart_toEndOf="@+id/imageButton06"
+        app:layout_constraintTop_toTopOf="@+id/imageButton06"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton27"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton07"
+        app:layout_constraintStart_toStartOf="@+id/imageButton07"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton07"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton37"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
+        app:layout_constraintStart_toStartOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton47"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton27"
+        app:layout_constraintStart_toStartOf="@+id/imageButton27"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton27"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton47"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton57"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton37"
+        app:layout_constraintStart_toStartOf="@+id/imageButton37"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton37"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton67"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton47"
+        app:layout_constraintStart_toStartOf="@+id/imageButton47"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton47"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton67"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton77"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton57"
+        app:layout_constraintStart_toStartOf="@+id/imageButton57"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton57"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton77"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton76"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton67"
+        app:layout_constraintStart_toStartOf="@+id/imageButton67"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton67"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton06"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton16"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton07"
+        app:layout_constraintStart_toEndOf="@+id/imageButton05"
+        app:layout_constraintTop_toTopOf="@+id/imageButton05"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton26"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton06"
+        app:layout_constraintStart_toStartOf="@+id/imageButton06"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton06"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton36"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton16"
+        app:layout_constraintStart_toStartOf="@+id/imageButton16"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton46"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton26"
+        app:layout_constraintStart_toStartOf="@+id/imageButton26"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton26"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton56"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton36"
+        app:layout_constraintStart_toStartOf="@+id/imageButton36"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton36"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton66"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton46"
+        app:layout_constraintStart_toStartOf="@+id/imageButton46"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton46"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton66"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton76"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton56"
+        app:layout_constraintStart_toStartOf="@+id/imageButton56"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton56"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton76"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton75"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton66"
+        app:layout_constraintStart_toStartOf="@+id/imageButton66"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton66"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton05"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton15"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton06"
+        app:layout_constraintStart_toEndOf="@+id/imageButton04"
+        app:layout_constraintTop_toTopOf="@+id/imageButton04"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton25"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton05"
+        app:layout_constraintStart_toStartOf="@+id/imageButton05"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton05"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton35"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton15"
+        app:layout_constraintStart_toStartOf="@+id/imageButton15"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton45"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton25"
+        app:layout_constraintStart_toStartOf="@+id/imageButton25"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton25"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton55"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton35"
+        app:layout_constraintStart_toStartOf="@+id/imageButton35"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton35"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton65"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton45"
+        app:layout_constraintStart_toStartOf="@+id/imageButton45"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton45"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton65"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton75"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton55"
+        app:layout_constraintStart_toStartOf="@+id/imageButton55"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton55"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton75"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton74"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton65"
+        app:layout_constraintStart_toStartOf="@+id/imageButton65"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton65"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton04"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton14"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton05"
+        app:layout_constraintStart_toEndOf="@+id/imageButton03"
+        app:layout_constraintTop_toTopOf="@+id/imageButton03"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton24"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton04"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="@+id/imageButton04"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton04"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton34"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton14"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton44"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton24"
+        app:layout_constraintStart_toStartOf="@+id/imageButton24"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton54"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton34"
+        app:layout_constraintStart_toStartOf="@+id/imageButton34"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton34"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton64"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton44"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton44"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton44"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton64"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton74"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton54"
+        app:layout_constraintStart_toStartOf="@+id/imageButton54"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton54"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton74"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton73"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton64"
+        app:layout_constraintStart_toStartOf="@+id/imageButton64"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton64"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton03"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton13"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton04"
+        app:layout_constraintStart_toEndOf="@+id/imageButton02"
+        app:layout_constraintTop_toTopOf="@+id/imageButton02"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton23"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton03"
+        app:layout_constraintStart_toStartOf="@+id/imageButton03"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton03"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton33"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton13"
+        app:layout_constraintStart_toStartOf="@+id/imageButton13"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+        tools:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton43"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton23"
+        app:layout_constraintStart_toStartOf="@+id/imageButton23"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton53"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton33"
+        app:layout_constraintStart_toStartOf="@+id/imageButton33"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton33"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton63"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton43"
+        app:layout_constraintStart_toStartOf="@+id/imageButton43"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton43"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton63"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton73"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton53"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="@+id/imageButton53"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton53"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton73"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton72"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton63"
+        app:layout_constraintStart_toStartOf="@+id/imageButton63"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton63"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton03"
+        app:layout_constraintStart_toEndOf="@+id/imageButton01"
+        app:layout_constraintTop_toTopOf="@+id/imageButton01"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton22"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton02"
+        app:layout_constraintStart_toStartOf="@+id/imageButton02"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton02"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton32"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton12"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton42"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton22"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="@+id/imageButton22"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton22"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton52"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton32"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton32"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton32"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton62"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton42"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton42"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton42"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton62"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton72"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton52"
+        app:layout_constraintStart_toStartOf="@+id/imageButton52"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton52"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton72"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton71"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton62"
+        app:layout_constraintStart_toStartOf="@+id/imageButton62"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton62"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton02"
+        app:layout_constraintStart_toEndOf="@+id/imageButton00"
+        app:layout_constraintTop_toTopOf="@+id/imageButton00"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton21"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton01"
+        app:layout_constraintStart_toStartOf="@+id/imageButton01"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton01"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton31"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+        app:layout_constraintStart_toStartOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton41"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton21"
+        app:layout_constraintStart_toStartOf="@+id/imageButton21"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton21"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton51"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton31"
+        app:layout_constraintStart_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton31"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton61"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton41"
+        app:layout_constraintStart_toStartOf="@+id/imageButton41"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton41"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton61"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton71"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton51"
+        app:layout_constraintStart_toStartOf="@+id/imageButton51"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton71"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton70"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton61"
+        app:layout_constraintStart_toStartOf="@+id/imageButton61"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton61"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton00"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton10"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton20"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton00"
+        app:layout_constraintStart_toStartOf="@+id/imageButton00"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton00"
+        app:srcCompat="@drawable/variant1_black" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton30"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton10"
+        app:layout_constraintStart_toStartOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton40"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton20"
+        app:layout_constraintStart_toStartOf="@+id/imageButton20"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton20"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton50"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton30"
+        app:layout_constraintStart_toStartOf="@+id/imageButton30"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton30"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton60"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton40"
+        app:layout_constraintStart_toStartOf="@+id/imageButton40"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton40"
+        app:srcCompat="@drawable/variant1_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton60"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/imageButton70"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton50"
+        app:layout_constraintStart_toStartOf="@+id/imageButton50"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton50"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton70"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton60"
+        app:layout_constraintStart_toStartOf="@+id/imageButton60"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton60"
+        app:srcCompat="@drawable/variant1_white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rooms"
+    tools:context=".activitys.Player1PreActivity">
+
+    <ImageButton
+        android:id="@+id/white1Player"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/random1Player"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_white_chip" />
+
+    <ImageButton
+        android:id="@+id/random1Player"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="#80000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/white1Player"
+        app:layout_constraintEnd_toStartOf="@+id/black1Player"
+        app:layout_constraintStart_toEndOf="@+id/white1Player"
+        app:layout_constraintTop_toTopOf="@+id/white1Player"
+        app:srcCompat="@drawable/ic_random_chip" />
+
+    <ImageButton
+        android:id="@+id/black1Player"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/random1Player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/random1Player"
+        app:layout_constraintTop_toTopOf="@+id/random1Player"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/ic_black_chip" />
+
+    <Button
+        android:id="@+id/start1Player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFFF"
+        android:text="@string/start"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

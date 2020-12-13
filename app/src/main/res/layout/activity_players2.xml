@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game"
+    tools:context=".activitys.GameActivity">
+
+    <ImageView
+        android:id="@+id/boardImageView2Players"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/classic_board" />
+
+    <include
+        android:id="@+id/boardInclude2Players"
+        layout="@layout/board"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/boardImageView2Players"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4983"
+        app:layout_constraintStart_toStartOf="@+id/boardImageView2Players"
+        app:layout_constraintTop_toTopOf="@+id/boardImageView2Players"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/writeList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boardInclude2Players"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/writeList"
+        app:layout_constraintStart_toStartOf="@+id/writeList"
+        app:layout_constraintTop_toBottomOf="@+id/writeList"
+        app:srcCompat="@drawable/ic_download" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="180"
+        android:text="@string/nula"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/score2Player2Players"
+        app:layout_constraintEnd_toStartOf="@+id/score2Player2Players"
+        app:layout_constraintTop_toTopOf="@id/score2Player2Players" />
+
+    <TextView
+        android:id="@+id/text8979"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nula"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/score1Player2Players"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/score1Player2Players"
+        app:layout_constraintTop_toTopOf="@+id/score1Player2Players" />
+
+    <ImageButton
+        android:id="@+id/surrenderButton2Players"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="25dp"
+        android:adjustViewBounds="true"
+        android:background="#66000000"
+        android:contentDescription="@string/clear"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/offerDraw2Players"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boardInclude2Players"
+        app:layout_constraintTop_toBottomOf="@id/score2Player2Players"
+        app:srcCompat="@drawable/ic_surrender" />
+
+    <TextView
+        android:id="@+id/name2Player2Players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:rotation="180"
+        android:text="@string/player2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boardInclude2Players"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name1Player2Players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/player1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/boardImageView2Players"
+        app:layout_constraintStart_toEndOf="@+id/boardInclude2Players" />
+
+    <TextView
+        android:id="@+id/score1Player2Players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/SCORE"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/name1Player2Players"
+        app:layout_constraintStart_toEndOf="@+id/boardInclude2Players" />
+
+    <TextView
+        android:id="@+id/score2Player2Players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:rotation="180"
+        android:text="@string/SCORE"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boardInclude2Players"
+        app:layout_constraintTop_toBottomOf="@+id/name2Player2Players" />
+
+    <Button
+        android:id="@+id/offerDraw2Players"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FFFFFF"
+        android:text="@string/offerDraw"
+        app:layout_constraintBottom_toTopOf="@+id/score1Player2Players"
+        app:layout_constraintEnd_toEndOf="@+id/surrenderButton2Players"
+        app:layout_constraintStart_toStartOf="@+id/surrenderButton2Players"
+        app:layout_constraintTop_toBottomOf="@+id/surrenderButton2Players" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <TextView
+        android:id="@+id/roomName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/RoomName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/player1"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomName" />
+
+    <TextView
+        android:id="@+id/player2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/player2"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1Button" />
+
+    <ImageView
+        android:id="@+id/chip1View"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/RoomName"
+        app:layout_constraintBottom_toBottomOf="@+id/lockView"
+        app:layout_constraintEnd_toStartOf="@+id/lockView"
+        app:layout_constraintTop_toBottomOf="@+id/roomName"
+        app:srcCompat="@drawable/ic_random_chip" />
+
+    <ImageView
+        android:id="@+id/lockView"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/RoomName"
+        app:layout_constraintBottom_toBottomOf="@+id/player1Button"
+        app:layout_constraintEnd_toEndOf="@+id/roomName"
+        app:layout_constraintTop_toBottomOf="@+id/roomName"
+        app:srcCompat="@drawable/ic_unlock" />
+
+    <ImageView
+        android:id="@+id/chip2View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/player2Button"
+        app:layout_constraintEnd_toEndOf="@+id/chip1View"
+        app:layout_constraintStart_toStartOf="@+id/chip1View"
+        app:layout_constraintTop_toBottomOf="@+id/chip1View"
+        app:srcCompat="@drawable/ic_random_chip"
+        android:contentDescription="TODO" />
+</androidx.constraintlayout.widget.ConstraintLayout>
